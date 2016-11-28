@@ -5,7 +5,9 @@
 If you are using the quantified self app [Moves](https://www.moves-app.com/),
 this quick hack lets you show
 what countries / US states you have been visiting,
-since you started logging.
+since you started logging:
+
+![example screenshot](screenshot.png)
 
 To try it out, you first need to
 [download your location history](https://moves-export.herokuapp.com/),
