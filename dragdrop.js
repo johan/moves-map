@@ -44,7 +44,7 @@ function wasAtOnDay(day) {
 }
 
 function gotMovesExport(content, file) {
-  var json = JSON.parse(content);
+  var json = JSON.parse(content.replace(/\,\]\}$/, ']}'));
   console.log('Dropped file exposed as variable "json":', json);
   const days = json.export;
   const segments = days.reduce(
@@ -90,7 +90,6 @@ function logTravel(segments, places) {
     }
   }
 }
-
 
 function featureNoAroundLatLng(loc) {
   if (typeof loc === 'object' && loc.hasOwnProperty('lon')) {
