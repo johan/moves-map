@@ -7,7 +7,7 @@ this quick hack lets you show
 what countries / US states you have been visiting,
 since you started logging:
 
-![example screenshot](screenshot.png)
+[![example screenshot](screenshot.png)](https://johan.github.io/moves-map/)
 
 To try it out, you first need to
 [download your location history](https://moves-export.herokuapp.com/),
